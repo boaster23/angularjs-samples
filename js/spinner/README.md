@@ -1,0 +1,1 @@
+This little Plunk shows how to use angular-spinner.

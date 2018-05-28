@@ -1,0 +1,496 @@
+/* -------------------------------------------------- General style --------------------------------------------------*/
+
+*:focus {
+    outline: none;
+}
+
+/* ------------------------------------------------- Style of header -------------------------------------------------*/
+
+
+#speed{
+    width: 145px;
+    padding: 10px;
+}
+
+#slideshow {
+    margin-top: 14px;
+    padding-bottom: 8px;
+    border: 2px solid #ffffff;
+}
+
+/* ------------------------------------------------- Mobile overlay -------------------------------------------------*/
+
+
+
+#right-side {
+	position:relative;
+	margin-left:-5px;
+	margin-right:0;
+	outline:none;
+	border:none;
+	padding:0px;
+}
+
+#right-side h2 {
+	margin-left:5px;
+}
+
+.ui-widget-header, .ui-tabs-tab {
+	border:none !important;
+	background:none !important;
+}
+
+.ui-widget-content a {
+	font-weight: bold;
+}
+
+.ui-tabs-tab a:hover {
+	background:#CCC;
+	text-align:center;
+	padding-left:10px;
+}
+
+
+
+.ui-tabs {
+	margin-right:6px !important;
+}
+
+.ui-tabs-panel {
+  z-index: 99999;
+  position: absolute;
+  padding: 10px 0;
+  color: #33B5E5;
+  width: 100%;
+  background-color: rgb(255, 255, 255) !important; /* Fallback for older browsers without RGBA-support */
+  background-color: rgba(255, 255, 255, 0.8) !important;   
+  /*background-color: rgb(9, 8, 8) !important; /* Fallback for older browsers without RGBA-support */
+  /*background-color: rgba(148, 155, 52, 0.6) !important; 
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 10px 10px; 
+  box-shadow: 0 2px 10px rgba(0,0,0,.2); */
+}
+
+.ui-tabs-tab  {
+	width:24%;
+}
+
+.iconText {
+	text-align: center;
+	font-weight:bold;	
+	}
+	
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color:black;
+}	
+/* ------------------------------------------------ Style of container -----------------------------------------------*/
+
+
+
+p, h1, h2 {
+	font-family: "Arial", sans-serif;
+}
+
+.actionsDiv{
+	margin-bottom:1%;
+} 
+
+
+/* ask someone questions*/
+#question-wrapper {
+	margin-left:-5px;
+}
+
+.question-block {
+	color:black;
+	background-color:#d7e4ef;
+	border-radius:15px;
+	margin-bottom:2%;
+	position:relative;
+	padding:2.5%;
+	padding-left:12%;
+	padding-right:8%;
+}
+
+.question-number {
+	font-size:0.9em;
+	color:white;
+	background-color:#95b9d7;
+	padding:1%;
+	position:absolute;
+	left:0;
+	top:0;
+	border-top-left-radius:15px;
+	border-bottom-right-radius:10px;
+}
+
+.question-more {
+	color:white;
+	padding:0.8%;
+	background-color:#95b9d7;
+	position:absolute;
+	right:0;
+	bottom:0;
+	border-top-left-radius:8px;
+	border-bottom-right-radius:15px;
+}
+
+.question-detail-block {
+	position:relative;
+	margin-top:1%;
+	padding-right:6%;
+	padding-left:6%;
+	padding-bottom:1%;
+	padding-top:1%;
+	background-color:#eee;
+	border-radius:20px;
+}
+
+
+.question-detail-close {
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.question-detail-next {
+	position:absolute;
+	top:60px;
+	left:0;
+}
+
+.question-detail-previous {
+	position:absolute;
+	top:60px;
+	right:0;
+}
+
+.question-detail-answer {
+	border-left:5px solid #06C;
+	padding-left:3%;
+}
+
+
+/* profile explorer image grid */
+#grid-wrapper {
+	margin-left:5px;
+	margin-right:-15px;
+}
+
+#grid-wrapper div.image-cell {
+	padding:1.5%;
+}
+
+#grid-wrapper div.image-cell-inner {
+	padding-bottom:62%;
+  	height:0;
+    position:relative;
+}
+
+#grid-wrapper  div.image-cell-inner img {
+    box-shadow: 4px 4px 4px black;
+    cursor: pointer;
+	width:100%;
+    height:100%;
+	display:block;
+	position:absolute;
+}
+
+#gallery  {
+	margin-bottom:1%;
+}
+
+#gallery #ethnicity-wrapper p,
+#gallery #gender-wrapper p,
+#gallery #sector-wrapper p,
+#gallery #keyword-wrapper p,
+#gallery #quality-wrapper p,
+#gallery #offerings-wrapper p,
+#gallery #quals-wrapper p,
+#gallery #size-wrapper p,
+#gallery #location-wrapper p,
+#gallery #type-wrapper p
+ {
+	margin-top:3%;
+	margin-bottom:3%;
+	font-weight:bold;
+	text-align:left;
+	padding-bottom:3px;
+/*	border-bottom:1px dotted #666;*/
+}
+
+#gallery #ethnicity-wrapper .itembutton a,
+#gallery #gender-wrapper .itembutton a,
+#gallery #sector-wrapper .itembutton a,
+#gallery #keyword-wrapper .itembutton a,
+#gallery #quality-wrapper .itembutton a,
+#gallery #offerings-wrapper .itembutton a,
+#gallery #quals-wrapper .itembutton a,
+#gallery #size-wrapper .itembutton a,
+#gallery #general-wrapper .itembutton a,
+#gallery #type-wrapper .itembutton a,
+#gallery #location-wrapper .itembutton a
+ {
+	margin-right:5px;
+	margin-bottom:5px;
+	padding:2px 4px;
+	float:left;
+	font-size:1em;
+	border-radius:6px;
+	color:black;
+	text-decoration:none;
+}
+
+#gallery #ethnicity-wrapper .itembutton a,
+#gallery #gender-wrapper .itembutton a,
+#gallery #offerings-wrapper .itembutton a,
+#gallery #size-wrapper .itembutton a,
+#gallery #location-wrapper .itembutton a,
+#gallery #type-wrapper .itembutton a
+ {
+	background-color:#5a5b5d; /* strong grey */
+	color:white;
+	/*border:2px solid #0579bc; */
+}
+
+#gallery #keyword-wrapper .itembutton a,
+#gallery #quality-wrapper .itembutton a,
+#gallery #general-wrapper .itembutton a
+{
+	background-color:#a9172a; /* strong red*/
+	color:white;
+	/*border:2px solid #c63333;*/
+}
+
+#gallery #sector-wrapper .itembutton a {
+	background-color:#838f02; /* strong green*/
+	color:white;
+	/*border:2px solid #df8217;*/
+}
+
+#gallery #quals-wrapper .itembutton a {
+	background-color:#fa780e; /* strong orange*/
+	color:white;
+	/*border:2px solid #df8217;*/
+}
+
+
+#gallery #gender-wrapper a.buttonhover:hover,
+#gallery #gender-wrapper .selected a,
+#gallery #gender-wrapper .selected a:hover,
+#gallery #ethnicity-wrapper .selected a,
+#gallery #ethnicity-wrapper .selected a:hover,
+#gallery #ethnicity-wrapper a.buttonhover:hover,
+#gallery #offerings-wrapper a.buttonhover:hover,
+#gallery #offerings-wrapper .selected a:hover,
+#gallery #offerings-wrapper .selected a,
+#gallery #size-wrapper a.buttonhover:hover,
+#gallery #size-wrapper .selected a:hover,
+#gallery #size-wrapper .selected a,
+#gallery #general-wrapper a.buttonhover:hover,
+#gallery #general-wrapper .selected a:hover,
+#gallery #general-wrapper .selected a,
+#gallery #location-wrapper a.buttonhover:hover,
+#gallery #location-wrapper .selected a:hover,
+#gallery #location-wrapper .selected a,
+#gallery #type-wrapper a.buttonhover:hover,
+#gallery #type-wrapper .selected a:hover,
+#gallery #type-wrapper .selected a
+ {
+	background-color:#ccc; /* light grey*/
+	color:black;	
+}
+
+#gallery #keyword-wrapper a.buttonhover:hover,
+#gallery #keyword-wrapper .selected a,
+#gallery #keyword-wrapper .selected a:hover,
+#gallery #quality-wrapper a.buttonhover:hover,
+#gallery #quality-wrapper .selected a,
+#gallery #quality-wrapper .selected a:hover {
+	background-color:#e3c6c2; /* light red*/
+	color:black;
+}
+
+#gallery #sector-wrapper a.buttonhover:hover,
+#gallery #sector-wrapper .selected a,
+#gallery #sector-wrapper .selected a:hover {
+	background-color:#d7dc94; /* light green */
+	color:black;
+}
+
+#gallery #quals-wrapper a.buttonhover:hover,
+#gallery #quals-wrapper .selected a,
+#gallery #quals-wrapper .selected a:hover {
+	background-color:#fcb072; /* light orange */
+	color:black;
+}
+
+.actionsDiv select {
+    margin-right: 85px;
+}
+
+/*the 'clear all selections' button*/
+.resetContainer {
+	position: relative;
+}
+
+.rightAlign {
+	position: absolute;
+	right: 5%;
+}
+
+input[type="text"] {
+	max-width: 100%;	
+}
+
+input[type="button"] {
+    margin: 0;
+    padding: 4px 10px;
+    background: #a9172a;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+input[type="button"]:hover {
+    background: #e3c6c2;
+/*    box-shadow: 3px 3px 3px grey, inset 0px 0px 10px yellow;*/
+    cursor: pointer;
+}
+.foobar {
+	content-align:right;
+}
+
+/* ------------------------------------------------ Style of table -----------------------------------------------*/
+
+
+.grid-row {
+	width: 100%;
+    border-spacing: 0px;  
+}
+
+.grid-row ul {
+	margin:0;
+	padding:0;
+}
+
+.grid-row ul li {
+    position: relative;
+    padding: 0px;
+    border: 1px dashed #000000;
+    text-align: center;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+
+
+/* ------------------------------------------------ Style of pagination, display counter---------------------------------------*/
+.pagination {
+    border: 1px solid gray;
+	width: 100%;
+    cursor: pointer;
+	margin-left:-5px;
+}
+
+
+.pagination>.active>a {
+    background-color: gray;
+    border: 1px solid gray;
+}
+
+.pagination li> a {
+    padding: 1% 3%;
+    color: gray;
+}
+
+.display-counter {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.display-counter #itemCount {
+	font-size:1.5em;
+	color:black;	
+	margin:2%;
+	padding:1% 2%;
+	/*background-color:#d7dc94;*/
+/*	border-style:solid;	
+*/	/*border-color:#838f02;/*//** strong green */
+/*	border-radius:4px; */
+}
+
+/* ------------------------------------------------ Style of slideshow  -----------------------------------------------*/
+
+.slideshow {
+    width: 100%;
+    position: relative;
+}
+
+.slideshow img {
+    max-width: 100%;
+    border: 7px dotted white;
+    box-shadow: 2px 2px 4px grey;
+}
+
+
+
+div.spinner {
+	text-align:center;
+}
+
+
+
+
+#prev {
+	position:absolute;
+    border-radius: 25px 5px 5px 25px;
+    padding: 10px;
+	top:100px;
+	left:-30px;
+}
+
+#next {
+	position:absolute;
+	top:100px;
+	left:420px;
+    border-radius: 5px 25px 25px 5px;
+    padding: 10px;
+}
+
+#close {
+    position: absolute;
+   
+    top: 8px;
+    padding: 4px 10px;
+    /*background: red;*/
+    border-radius: 5px 50% 50% 5px;
+}
+
+input[type="button"].delete {
+    position: absolute;
+    display: none;
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    top: 50%;
+    margin: -35px -25px 0px 0px;
+    padding: 0px;
+    background: red;
+}
+
+td:hover input[type="button"].delete,
+#imgDiv:hover input[type="button"].delete {
+    display: block;
+}
+
+
+#imgDiv {
+    display:inline-block;
+}
+
+.icon img {
+	width: 60px;
+	border: 2px solid;
+	border-radius: 10px;
+}
