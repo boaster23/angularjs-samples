@@ -8,7 +8,7 @@
 
 
 <cfquery name="careerKeywords" datasource="fitSQL">
- 	select keywordid,KeywordDesc from CareerKeywords order by KeywordDesc  
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="sectors" datasource="fitSQL">
