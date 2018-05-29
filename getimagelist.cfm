@@ -1,18 +1,6 @@
 
 <cfquery name="get_all" datasource="fitSQL" cachedwithin="#createTimeSpan(1,0,0,0)#">
-SELECT distinct dbo.JnSector.categoryID AS SectorCategoryID, dbo.Profiles.ProfileID, dbo.Contacts.Firstname, dbo.Contacts.Surname, dbo.Contacts.jobtitle, 
-                      dbo.Profiles.NPIServerpath, dbo.CareerKeywordJunction.keywordid,  dbo.Contacts.GenderID, 
-                      dbo.JnJobRoles.categoryID AS JobRoleCategoryID, dbo.tblJobRoles.Catname, dbo.Profiles.JobRoleText, dbo.Profiles.EmployerText, 
-                      dbo.JnContactEthnicity.ethnicityID AS ethnicityid
-FROM dbo.JnContactEthnicity RIGHT OUTER JOIN
-                      dbo.Contacts INNER JOIN
-                      dbo.Profiles ON dbo.Contacts.IndID = dbo.Profiles.IndID ON dbo.JnContactEthnicity.indID = dbo.Contacts.IndID LEFT OUTER JOIN
-                      dbo.tblJobRoles INNER JOIN
-                      dbo.JnJobRoles ON dbo.tblJobRoles.categoryID = dbo.JnJobRoles.categoryID ON dbo.Profiles.ProfileID = dbo.JnJobRoles.profileID LEFT OUTER JOIN
-                      dbo.CareerKeywordJunction ON dbo.Contacts.IndID = dbo.CareerKeywordJunction.IndID LEFT OUTER JOIN
-                      dbo.JnSector ON dbo.Profiles.ProfileID = dbo.JnSector.profileID
-WHERE     (dbo.Profiles.Live = 1)
-ORDER BY dbo.Profiles.ProfileID DESC
+SQL REMOVED
 </cfquery>
 
 	<cfset result=ArrayNew(1)>

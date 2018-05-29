@@ -7,31 +7,19 @@
 
 
 <cfquery name="subjects" datasource="fitSQL">
-	SELECT distinct dbo.tblSubjects.Catname, dbo.tblSubjects.categoryID
-	FROM  dbo.AskQJnSubjects INNER JOIN
-	dbo.tblSubjects ON dbo.AskQJnSubjects.categoryid = dbo.tblSubjects.categoryID
-	order by catname
+SQL REMOVED
 </cfquery>
 
 <cfquery name="quals" datasource="fitSQL">
- 	SELECT distinct dbo.EmpQualification.categoryid, dbo.EmpQualification.catname
-	FROM dbo.EmpQualification INNER JOIN
-    dbo.AskQJnQuals ON dbo.EmpQualification.categoryid = dbo.AskQJnQuals.categoryid 
-    order by catname
+SQL REMOVED
 </cfquery>
 
 <cfquery name="jobroles" datasource="fitSQL">
- 	SELECT distinct dbo.tblJobRoles.categoryID, dbo.tblJobRoles.Catname
-	FROM dbo.AskQJnJobroles INNER JOIN
-    dbo.tblJobRoles ON dbo.AskQJnJobroles.categoryid = dbo.tblJobRoles.categoryID
-    order by catname
+SQL REMOVED
 </cfquery>
 
 <cfquery name="general" datasource="fitSQL">
- 	SELECT distinct dbo.AskQGeneral.categoryid, dbo.AskQGeneral.catname
-	FROM  dbo.AskQJnGeneral INNER JOIN
-    dbo.AskQGeneral ON dbo.AskQJnGeneral.categoryid = dbo.AskQGeneral.categoryid
-    order by catname
+SQL REMOVED
 </cfquery>
 
 

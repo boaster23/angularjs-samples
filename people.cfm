@@ -12,15 +12,11 @@
 </cfquery>
 
 <cfquery name="sectors" datasource="fitSQL">
- 	select catname, categoryid from tblsectors 
-    where qual=0 and introduction=0 and overview=0 and catType='profilecategories' 
-    and catname <> 'growing + harvesting' and catname <> 'processing + commercialising' and catname <> 'supporting + protecting' 
-    order by catname
+SQL REMOVED
 </cfquery>
 
 <cfquery name="gender" datasource="fitSQL">
- 	select genderid, description from gender 
-    where genderid > 1 and genderid <> 4
+SQL REMOVED
 </cfquery>
 
 <cfsavecontent variable="keywords">

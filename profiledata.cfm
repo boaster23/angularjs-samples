@@ -14,13 +14,7 @@
 <cfset strProfileData=StructNew()>
 
 <cfquery name="get_theprofile" datasource="fitSQL">
-		SELECT Contacts.Firstname, Contacts.Surname, Contacts.jobtitle,
-        profiles.*, ProfileVersion.*
-		FROM (profiles INNER JOIN Contacts ON profiles.IndID = Contacts.IndID) 
-        LEFT JOIN ProfileVersion ON profiles.ProfileID = ProfileVersion.profileID
-        WHERE Profiles.ProfileID=
-        <cfqueryparam cfsqltype="cf_sql_integer" maxlength="8" value="#form.profileid#">
-        AND ProfileVersion.editedVersion=1
+SQL REMOVED
 </cfquery>
 
 

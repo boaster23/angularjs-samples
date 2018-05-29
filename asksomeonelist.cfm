@@ -1,19 +1,7 @@
 
 
 <cfquery name="get_all" datasource="fitSQL" >
-SELECT     dbo.AskSomeoneQuestions.title, dbo.AskSomeoneQuestions.questionid, dbo.AskSomeoneQuestions.question, dbo.AskSomeoneQuestions.dateadded, 
-dbo.AskQJnQuals.categoryid AS QualsCategoryID, dbo.AskQJnGeneral.categoryid AS GeneralCategoryID, dbo.AskQJnSubjects.categoryid AS SubjectsCategoryID, 
-dbo.AskQJnJobroles.categoryid AS JobRolesCategoryID, dbo.AskSomeoneQuestions.askerschoolregion, dbo.AskSomeoneAnswers.answerid, 
-dbo.AskSomeoneAnswers.answer, dbo.Contacts.Firstname, dbo.Contacts.Surname, dbo.Contacts.jobtitle, dbo.Contacts.IndID, dbo.AskQYearLevel.catname AS YearLevelCatname
-FROM  dbo.AskSomeoneQuestions INNER JOIN
-                      dbo.AskSomeoneAnswers ON dbo.AskSomeoneQuestions.questionid = dbo.AskSomeoneAnswers.questionid INNER JOIN
-                      dbo.Contacts ON dbo.AskSomeoneAnswers.indid = dbo.Contacts.IndID INNER JOIN
-                      dbo.AskQYearLevel ON dbo.AskSomeoneQuestions.yearlevelid = dbo.AskQYearLevel.yearlevelid LEFT OUTER JOIN
-                      dbo.AskQJnJobroles ON dbo.AskSomeoneQuestions.questionid = dbo.AskQJnJobroles.questionid LEFT OUTER JOIN
-                      dbo.AskQJnSubjects ON dbo.AskSomeoneQuestions.questionid = dbo.AskQJnSubjects.questionid LEFT OUTER JOIN
-                      dbo.AskQJnGeneral ON dbo.AskSomeoneQuestions.questionid = dbo.AskQJnGeneral.questionid LEFT OUTER JOIN
-                      dbo.AskQJnQuals ON dbo.AskSomeoneQuestions.questionid = dbo.AskQJnQuals.questionid
-ORDER BY questionid desc
+SQL REMOVED
 </cfquery>
 
 <cfquery name="qnumber" dbtype="query">

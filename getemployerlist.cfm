@@ -1,14 +1,7 @@
 
 
 <cfquery name="get_all" datasource="fitSQL" >
-SELECT dbo.EmpJnOffering.categoryID AS OffCategoryID, dbo.EmpJnQualifications.categoryID AS QualsCategoryID, dbo.EmpJnQualities.categoryID AS QualityCategoryID, dbo.JnEmployerSector.categoryID AS SectorCategoryID, dbo.Emp_Profiles.EmpProfileID, dbo.Emp_Profiles.isPDP, dbo.Emp_Profiles.LocationID, dbo.Emp_Profiles.SizeID, dbo.Emp_Profiles.SectorID, dbo.Emp_Profiles.Name, dbo.Emp_Profiles.NPIServerPath, dbo.Emp_Profiles.LargeServerPath
-FROM dbo.JnEmployerSector RIGHT OUTER JOIN
-dbo.Emp_Profiles ON dbo.JnEmployerSector.EmpProfileID = dbo.Emp_Profiles.EmpProfileID LEFT OUTER JOIN
-dbo.EmpJnOffering ON dbo.Emp_Profiles.EmpProfileID = dbo.EmpJnOffering.EmpProfileID LEFT OUTER JOIN
-dbo.EmpJnQualifications ON dbo.Emp_Profiles.EmpProfileID = dbo.EmpJnQualifications.EmpProfileID LEFT OUTER JOIN
-dbo.EmpJnQualities ON dbo.Emp_Profiles.EmpProfileID = dbo.EmpJnQualities.EmpProfileID
-WHERE isLive=1
-ORDER BY dbo.Emp_Profiles.EmpProfileID DESC
+SQL REMOVED
 </cfquery>
 
 <cfset result=ArrayNew(1)>

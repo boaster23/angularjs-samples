@@ -33,7 +33,7 @@
 </script>
 
 <cfquery name="get_year" datasource="fitSQL">
-	select * from AskQYearLevel order by yearlevelid
+	SQL REMOVED
 </cfquery>
 
 <div class="container bg-color padding"><!--content wrapper-->

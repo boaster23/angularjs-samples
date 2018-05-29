@@ -7,22 +7,19 @@
 
 
 <cfquery name="sectors" datasource="fitSQL">
- 	select catname, categoryid from tblsectors
-    where qual=0 and introduction=0 and overview=0 
-    and catname <> 'growing + harvesting' and catname <> 'processing + commercialising' and catname <> 'supporting + protecting'
-    and catType='profilecategories' order by catname
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="qualities" datasource="fitSQL">
- 	select * from EmpQualities order by catname
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="offerings" datasource="fitSQL">
- 	select * from EmpOffering order by catname
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="quals" datasource="fitSQL">
- 	select * from EmpQualification order by catname
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="size" datasource="fitSQL">

@@ -28,25 +28,16 @@
 
     <cftransaction>
         <cfquery datasource="fitSQL">
-            insert into AskSomeOneQuestions
-            (question, askername, yearlevelid, askerschoolregion, askeremail) 
-            values 
-            (<cfqueryparam cfsqltype="cf_sql_longvarchar" value="#form.question#">,
-             <cfqueryparam cfsqltype="cf_sql_longvarchar" value="#form.askername#">,
-             <cfqueryparam cfsqltype="cf_sql_longvarchar" value="#form.yearlevelid#">,
-             <cfqueryparam cfsqltype="cf_sql_longvarchar" value="#form.askerschoolregion#">,
-             <cfqueryparam cfsqltype="cf_sql_longvarchar" value="#form.askeremail#">
-              )
+		SQL REMOVED
         </cfquery>
         
         <cfquery name="get_max" datasource="fitSQL">
-            select max(questionid) as latest from AskSomeoneQuestions
+            SQL REMOVED
         </cfquery>
     </cftransaction>
  
  	<cfquery name="get_year" datasource="fitSQL">
-		select catname from AskQYearLevel 
-    	where yearlevelid=<cfqueryparam cfsqltype="cf_sql_integer" value="#form.yearlevelid#">
+		SQL REMOVED
 	</cfquery>
 
     <cfmail to="writer.researcher@futureintech.org.nz"
