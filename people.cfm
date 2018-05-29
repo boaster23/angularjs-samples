@@ -8,7 +8,7 @@
 
 
 <cfquery name="careerKeywords" datasource="fitSQL">
- 	SQL REMOVED
+ SQL REMOVED
 </cfquery>
 
 <cfquery name="sectors" datasource="fitSQL">
