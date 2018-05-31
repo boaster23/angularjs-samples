@@ -330,7 +330,7 @@
         <script src="js/src/ui-bootstrap-tpls-0.10.0.min.js?version=2.2"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-sanitize.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-touch.js"></script>
-        <script src="js/app3.js?version=3.9"></script>
+        <script src="js/app.js?version=3.9"></script>
 
 <cfinclude template="/includes/footer.cfm">
 

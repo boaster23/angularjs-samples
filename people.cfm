@@ -270,7 +270,7 @@ SQL REMOVED
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-touch.js"></script>
 <!---         <script type="text/javascript" src="http://fgnass.github.io/spin.js/spin.min.js"></script>
   		<script type="text/javascript" src="js/spinner/angular-spinner.js"></script> --->
-        <script src="js/app3.js?version=4.2"></script>
+        <script src="js/app.js?version=4.2"></script>
 
 <cfinclude template="/includes/footer.cfm">
 
