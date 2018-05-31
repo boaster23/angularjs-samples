@@ -23,15 +23,15 @@
 </cfquery>
 
 <cfquery name="size" datasource="fitSQL">
- 	select * from EmpSize where size <> 'unknown' order by sizeid
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="location" datasource="fitSQL">
- 	select * from EmpLocation where location <> 'unknown' order by locationid
+ 	SQL REMOVED
 </cfquery>
 
 <cfquery name="type" datasource="fitSQL">
- 	select * from EmpSector where sector <> 'unknown' order by sectorid
+ 	SQL REMOVED
 </cfquery>
 
 <cfsavecontent variable="scsector">
