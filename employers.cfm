@@ -6,33 +6,7 @@
 <link rel="stylesheet" href="css/styles.css?version=4.1" />
 
 
-<cfquery name="sectors" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="qualities" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="offerings" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="quals" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="size" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="location" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
-
-<cfquery name="type" datasource="fitSQL">
- 	SQL REMOVED
-</cfquery>
+<!--- SQL removed --->
 
 <cfsavecontent variable="scsector">
 <div  id="sector-wrapper">

@@ -6,21 +6,7 @@
 <link rel="stylesheet" href="css/styles.css?version=4.3" />
 
 
-<cfquery name="subjects" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
-
-<cfquery name="quals" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
-
-<cfquery name="jobroles" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
-
-<cfquery name="general" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
+<!--- SQL removed --->
 
 
 <cfsavecontent variable="scsubject">

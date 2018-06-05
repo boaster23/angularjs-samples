@@ -7,17 +7,7 @@
 
 
 
-<cfquery name="careerKeywords" datasource="fitSQL">
- SQL REMOVED
-</cfquery>
-
-<cfquery name="sectors" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
-
-<cfquery name="gender" datasource="fitSQL">
-SQL REMOVED
-</cfquery>
+<!--- SQL removed --->
 
 <cfsavecontent variable="keywords">
  <div  id="keyword-wrapper">
